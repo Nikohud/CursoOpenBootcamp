@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.galeria {
+display:flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content:center;
+align-items:stretch;
+}
+.imagen {
+width: 300px;
+cursor: pointer;
+}
+.Indice {
+    font-size: 30px;
+    color:#F79256;
+    background-color: #30332E; 
+    border-top:none;
+    padding: 50px;
+    text-shadow: 5px 5px #2b2b2b;
+}
+.cont {
+    position: fixed;
+    justify-content: end;
+    align-items: flex-end;
+    color: #F79256;
+    bottom:0%;
+}
